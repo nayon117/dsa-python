@@ -5,7 +5,7 @@ SC : O(1)
 """
 
 class Solution:
-    def isPalindrom(self, x:int) -> bool:
+    def isPalindrome(self, x:int) -> bool:
         num = x
         rev = 0
         while num > 0:
