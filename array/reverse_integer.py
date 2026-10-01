@@ -1,9 +1,10 @@
 """
+problem link: https://leetcode.com/problems/reverse-integer/
 TC : O(N)
 SC : O(1)
 """
 
-class solution:
+class Solution:
     def reverse(self, x:int) -> int:
         num = x
         sign = -1 if num < 0 else 1
