@@ -18,7 +18,7 @@ def second_largest(nums):
 TC: O(n)
 SC: O(1)
 """
-def getSecondOrderElements(n: int,  a: [int]) -> [int]:
+def getSecondOrderElements(n: int,  a: list[int]) -> list[int]:
     largest = float('-inf')
     second_largest = float('-inf')
     n = len(a)
