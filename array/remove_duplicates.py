@@ -20,10 +20,12 @@ class Solution:
         return i + 1
 
 """
-Explanation:
-1. The function removeDuplicates takes a list of integers nums as input and returns the length of the modified list after removing duplicates in-place.
-2. The function first checks if the length of nums is 1. If it is, it returns 1 since there are no duplicates to remove.
-3. Two pointers i and j are initialized. i points to the last unique element found, while j iterates through the list to find the next unique element.
-4. The while loop continues until j reaches the end of the list. Inside the loop, if the current element nums[j] is not equal to the last unique element nums[i], it means a new unique element has been found. In that case, i is incremented, and the unique element is swapped with the element at index i.
-5. Finally, the function returns i + 1, which represents the length of the modified list containing only unique elements.
+Explanation in Bangla:
+1. ফাংশনটি একটি অ্যারে নেয় এবং তার মধ্যে ডুপ্লিকেট উপাদানগুলো মুছে ফেলে।
+2. প্রথমে, অ্যারের দৈর্ঘ্য 1-এর সমান হলে, 1 return করা।
+3. i-এর মান 0, j-এর মান i + 1 initialize করা।
+4. while loop-এর মধ্যে, j-এর value n-এর চেয়েও ছোটতমই।
+5. if condition-এ, nums[j] != nums[i] check kora।
+6. If true, i increment kora, and swap the elements.
+7. Finally, the function returns i + 1.
 """
