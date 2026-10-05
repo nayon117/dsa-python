@@ -13,6 +13,5 @@ def right_rotate_1_place(nums):
 Explanation in Bangla:
 1. আমরা একটি অ্যারে নেবো।
 2. আমরা শেষ উপাদানটি বাদ দিয়ে বাকি উপাদানগুলোকে একটি নতুন অ্যারেতে সংযুক্ত করব।
-3. তারপর, আমরা শেষের উপাদানটির সঙ্গেও এইভাবে 1-স্থানের ডিফল্টভাবে 1-স্থানের (Right) rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানেر 
-
+3. তারপর, আমরা শেষের উপাদানটির সঙ্গেও এইভাবে 1-স্থানের ডিফল্টভাবে 1-স্থানের (Right) rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানের rotationএর 1-স্থানেر
 """

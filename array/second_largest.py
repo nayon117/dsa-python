@@ -1,4 +1,3 @@
-
 # brute 
 """
 TC: O(nlogn)
