@@ -1,7 +1,7 @@
-# cycle ||
+# linked list cycle
 
 def has_cycle(head):
-    slow = head 
+    slow = head
     fast = head
 
     while fast is not None and fast.next is not None:
@@ -9,10 +9,6 @@ def has_cycle(head):
         fast = fast.next.next
 
         if slow == fast:
-            slow = head
-            while slow != fast:
-                slow = slow.next
-                fast = fast.next
-            return slow
+            return True
     
-    return None
+    return False
